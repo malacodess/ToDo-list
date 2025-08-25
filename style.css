@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #809671;
+    padding: 10px;
+}
+
+.todo-list  {
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.todo-list h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+.task button {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 16px 50px;
+    background: #809671;
+    color: white;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.task button:hover {
+    background: #546745;
+}
+
+#list-container li {
+    display: flex;           /* puts text + icon in a row */
+    justify-content: space-between; 
+    align-items: center;
+    padding: 12px 8px 12px 50px; 
+    position: relative;
+}
+
+#list-container img {
+    display: none;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    /* transition: opacity 0.2s ease-in-out; */
+}
+
+#list-container li:hover img {
+    display: block;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(assets/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background-image: url(assets/check.png);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.nav button {
+    border: none;
+    background: transparent;
+}
+.nav button:hover {
+    text-decoration: underline;
+}
+
+.status {
+    display: flex;
+    gap: 10px;
+}
+
+.tasks-counter {
+    font-size: small;
+}
+
+
+
+
+
