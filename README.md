@@ -3,7 +3,7 @@
 A simple **To-Do List web app** built with HTML, CSS, and JavaScript to help manage daily tasks.  
 
 ## 🚀 Live Demo  
-👉 [Click here to try it out](https://github.com/malacodess/ToDo-list.git)  
+👉 [Click here to try it out](https://malacodess.github.io/ToDo-list/)  
 
 ## ✨ Features  
 - Add new tasks  
