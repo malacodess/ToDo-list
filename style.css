@@ -16,7 +16,7 @@
 .todo-list  {
     width: 100%;
     max-width: 540px;
-    background: white;
+    background: #f4f3f1;
     margin: 100px auto 20px;
     padding: 40px 30px 30px;
     border-radius: 20px;
@@ -52,14 +52,14 @@ input {
     outline: none;
     background: transparent;
     padding: 16px 50px;
-    background: #809671;
-    color: white;
+    background: #d8959b;;
+    color: #f4f3f1;
     cursor: pointer;
     border-radius: 40px;
 }
 
 .task button:hover {
-    background: #546745;
+    background: #344c3d;
 }
 
 #list-container li {
